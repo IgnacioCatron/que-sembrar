@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./images/verduras.JPG');
+      opacity: 0.98;
+      background-attachment: fixed;
+
+
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.result {
+    font-size: 18px;
+    color: green;
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.plant-details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.subtitulo {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    font-size: 20px;
+}
